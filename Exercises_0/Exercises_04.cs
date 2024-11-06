@@ -1,11 +1,4 @@
-﻿
-
-using System.ComponentModel;
-using System.Diagnostics.Metrics;
-using static System.Net.Mime.MediaTypeNames;
-using static System.Runtime.InteropServices.JavaScript.JSType;
-
-namespace Exercises_0
+﻿namespace Exercises_0
 {
     internal class _4
     {
@@ -89,7 +82,7 @@ namespace Exercises_0
             PrintPrimesLessThan(n);*/
 
 
-        //the first N prime numbers
+        //4.2. the first N prime numbers
         /*static void PrintFirstNPrimes(int n)
         {
             int count = 0;
@@ -121,7 +114,7 @@ namespace Exercises_0
             int n = int.Parse(Console.ReadLine());
             PrintFirstNPrimes(n);
         } */
-        //Write a C# function to check whether a number is "Perfect" or not. Then print all perfect number that less than 1000
+        //5. Write a C# function to check whether a number is "Perfect" or not. Then print all perfect number that less than 1000
       /*  static bool IsPerfect(int number)
         {
             int sum = 1;
@@ -151,8 +144,8 @@ namespace Exercises_0
             Console.WriteLine("Các số hoàn hảo nhỏ hơn 1000:");
             PrintPerfectNumbers(1000);
         } */
-      //  Write a C# function to check whether a string is a pangram or not.
-        static bool IsPangram(string input)
+      // 6. Write a C# function to check whether a string is a pangram or not.
+        /*static bool IsPangram(string input)
         {
             input = input.ToLower();
             for (char c = 'a'; c <= 'z'; c++)
@@ -169,7 +162,7 @@ namespace Exercises_0
         {
             string sentence = "The quick brown fox jumps over the lazy dog";
             Console.WriteLine(IsPangram(sentence)); // Kết quả: True
-        }
+        }*/
     }
 }
 
