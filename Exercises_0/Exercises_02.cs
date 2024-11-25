@@ -1,12 +1,16 @@
-﻿namespace Exercises_0
+﻿namespace NGUYENTHANHHOAI_31231027586_24C1INF50900503
 {
-    internal class _2
+    internal class Exercises_02
     {
-        /*public static void Main(string[] args)
+        public static void Main2(string[] args)
         {
-            Question_03();
-        }*/
-        /*to convert from degrees Celsius to Kelvin and Fahrenheit*/
+            //Question_01();
+            //Question_02();
+            //Question_03();
+           
+            Console.ReadKey();
+        }
+        //to convert from degrees Celsius to Kelvin and Fahrenheit
         public static void Question_01() 
         {
             Console.WriteLine("nhap do C:");
@@ -54,15 +58,15 @@ multiplying and dividing two numbers entered by the user.
             Console.WriteLine("nhap so b:");
             int b = int.Parse(Console.ReadLine());
             int sum = a + b;
-            int difference = a - b;
-            int product = a * b;
-            int quotient = a / b;
-            int remainder = a % b;
+            int subtract = a - b;
+            int multiply = a * b;
+            int divide = a / b;
+            int mod = a % b;
             Console.WriteLine($@"{a} + {b} = {sum}
-           {a} - {b} = {difference}
-           {a} x {b} = {product}
-           { a} / { b} = { quotient}
-           {a} mod {b} = {remainder}");
+           {a} - {b} = {subtract}
+           {a} x {b} = {multiply}
+           { a} / { b} = {divide}
+           {a} mod {b} = {mod}");
 
         }
     }

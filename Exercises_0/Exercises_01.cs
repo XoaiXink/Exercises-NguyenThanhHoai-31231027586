@@ -1,13 +1,23 @@
 ﻿using Microsoft.Win32.SafeHandles;
 
-namespace session_01
+namespace NGUYENTHANHHOAI_31231027586_24C1INF50900503
 {
     internal class Exercises_01
     {
-        /*public static void Main(string[] args)
-        {
-            Question_10();
-        }*/
+        //public static void Main1()
+        //{
+        //    //Question_01();
+        //    //Question_02();
+        //    //Question_03();
+        //    //Question_04();
+        //    //Question_05();
+        //    //Question_06();
+        //    //Question_07();
+        //    //Question_08();
+        //    //Question_09();
+        //    //Question_10();
+        //    Console.ReadKey();
+        //}
         public static void Question_01()   // to Add / Sum Two Numbers.//
         {
             Console.Write("nhap so a:");

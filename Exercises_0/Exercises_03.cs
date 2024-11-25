@@ -1,11 +1,25 @@
-﻿namespace Exercises_0
+﻿using System.ComponentModel;
+
+namespace NGUYENTHANHHOAI_31231027586_24C1INF50900503
 {
-    internal class _3
+
+    internal class Exercises_03
     {
-        /*public static void Main()
+        public static void Main3()
         {
-            Question_1();
-        }*/
+            // Question_01();
+            //Console.Write("Enter a number: ");
+            //int number = int.Parse(Console.ReadLine());
+
+            //if (IsPrime(number))
+            //{
+            //    Console.WriteLine($"{number} is a prime number.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"{number} is not a prime number.");
+            //}
+        }
         public static void Question_01()
         /*Write a C# Sharp program to display certain values of the function x = y2
 + 2y + 1 (using integer numbers for y, ranging from -5 to +5).*/
@@ -50,6 +64,9 @@ calculates and displays the surface and volume of the sphere. V =
 
         }
         public static void Question_04()
+        /*Write a C# Sharp program that takes a character as input and checks if it
+is a vowel, a digit, or any other symbol.*/
+
         {
             Console.WriteLine("nhap mot char bat ki");
             char inputchar = Convert.ToChar(Console.ReadLine());
@@ -284,26 +301,7 @@ sum. 1 + 1 / 2 + 1 / 3 + 1 / 4 + 1 / 5... 1 / n terms*/
                 }
             }
         }
-    }
-}
-    
-        
-        /*Write a program to determine whether a given number is prime or not.*/
-       /* static void Main()
-        {
-            Console.Write("Enter a number: ");
-            int number = int.Parse(Console.ReadLine());
-
-            if (IsPrime(number))
-            {
-                Console.WriteLine($"{number} is a prime number.");
-            }
-            else
-            {
-                Console.WriteLine($"{number} is not a prime number.");
-            }
-        }
-
+     // Write a program to determine whether a given number is prime or not.
         static bool IsPrime(int number)
         {
             if (number <= 1) return false;
@@ -322,4 +320,4 @@ sum. 1 + 1 / 2 + 1 / 3 + 1 / 4 + 1 / 5... 1 / n terms*/
         }
     }
 }
-       */
+       
