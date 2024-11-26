@@ -28,7 +28,7 @@ namespace NGUYENTHANHHOAI_31231027586_24C1INF50900503
         //    }
         //}
        
-        static void Main()
+        static void Main53()
         {
             // Nhập số hàng và số cột của từng hàng từ người dùng
             Console.Write("Enter the number of rows: ");
